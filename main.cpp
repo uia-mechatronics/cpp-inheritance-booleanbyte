@@ -17,5 +17,8 @@ int main()
     ia.move();
     ia.jump();
 
+    beveTheBever.getPosition().printPosition();
+    dolphTheDolphine.getPosition().printPosition();
+
     return 0;
 }
