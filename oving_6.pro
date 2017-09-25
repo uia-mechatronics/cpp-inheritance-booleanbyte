@@ -6,11 +6,13 @@ CONFIG -= qt
 SOURCES += main.cpp \
     position.cpp \
     bever.cpp \
-    dolphin.cpp
+    dolphin.cpp \
+    vehicle.cpp
 
 HEADERS += \
     ianimal.h \
     ipositionprovider.h \
     position.h \
     bever.h \
-    dolphin.h
+    dolphin.h \
+    vehicle.h
