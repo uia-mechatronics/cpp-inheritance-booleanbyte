@@ -3,6 +3,7 @@
 #include "dolphin.h"
 #include "ianimal.h"
 #include "vehicle.h"
+#include "car.h"
 
 using namespace std;
 
@@ -18,14 +19,11 @@ int main()
     ia.move();
     ia.jump();
 
-    beveTheBever.getPosition().printPosition();
-    dolphTheDolphine.getPosition().printPosition();
-
-    Vehicle v(10.0, 12.0);
-    v.getPosition().printPosition();
-    v.move(-5.0, -3.338);
-    v.getPosition().printPosition();
-    v.stop();
+    Car c(10.0, 0.0);
+    c.getPosition().printPosition();
+    c.move(-5.0, -3.338);
+    c.getPosition().printPosition();
+    c.stop();
 
     return 0;
 }

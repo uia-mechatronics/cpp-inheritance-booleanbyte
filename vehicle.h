@@ -16,7 +16,7 @@ public:
 
     virtual void stop();
 
-private:
+protected:
     Position position_;
 };
 
