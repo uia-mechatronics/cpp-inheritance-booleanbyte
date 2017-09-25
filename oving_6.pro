@@ -8,7 +8,8 @@ SOURCES += main.cpp \
     bever.cpp \
     dolphin.cpp \
     vehicle.cpp \
-    car.cpp
+    car.cpp \
+    delorean.cpp
 
 HEADERS += \
     ianimal.h \
@@ -17,4 +18,5 @@ HEADERS += \
     bever.h \
     dolphin.h \
     vehicle.h \
-    car.h
+    car.h \
+    delorean.h
