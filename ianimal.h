@@ -9,6 +9,7 @@ public:
     virtual ~IAnimal() {}
 
     virtual void move() = 0;
+    virtual void jump() = 0;
 
 };
 
